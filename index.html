@@ -2,48 +2,48 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hệ thống Công trình Thanh niên Đoàn trường UEF (2026–2027)</title>
-  <meta http-equiv="refresh" content="0; url=DAN_URL_WEB_APP_CUA_BAN_VAO_DAY">
-  <script>
-    window.location.replace("DAN_URL_WEB_APP_CUA_BAN_VAO_DAY");
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Hệ thống Theo dõi 5 Công trình Thanh niên UEF (2026–2027)</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #0B3765 0%, #154c86 100%);
-      color: #fff;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #F4F7FA;
       font-family: 'Segoe UI', Arial, sans-serif;
-      text-align: center;
     }
-    .box {
-      background: rgba(255,255,255,0.1);
-      padding: 28px 36px;
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.25);
-      max-width: 460px;
+    .fallback-bar {
+      background-color: #0B3765;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 4px 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .btn {
-      display: inline-block;
-      margin-top: 14px;
-      padding: 10px 20px;
-      background-color: #D6A33D;
-      color: #0B3765;
-      font-weight: bold;
+    .fallback-bar a {
+      color: #FFD166;
+      font-weight: 600;
       text-decoration: none;
-      border-radius: 6px;
+    }
+    iframe {
+      width: 100%;
+      height: calc(100% - 26px);
+      border: none;
+      display: block;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h3 style="margin-top:0;">ĐOÀN TRƯỜNG ĐẠI HỌC KINH TẾ - TÀI CHÍNH TP.HCM</h3>
-    <p>Đang kết nối vào Hệ thống Theo dõi 5 Công trình Thanh niên (2026–2027)...</p>
-    <a class="btn" href="https://script.google.com/macros/library/d/1cUuuedGcISbNggcz1RFiVzdqzU6yHnDOFa99NeDan7T3gZHHVD7A1G-m/4">Truy cập ngay</a>
+  <div class="fallback-bar">
+    <span>⚡ Cổng Theo dõi 5 Công trình Thanh niên Đoàn trường UEF (2026–2027)</span>
+    <a href="https://script.google.com/macros/s/AKfycbycCg2yt4j_FsH1zcD_k9klD_ZohGVCV1WTT9EL0DOd9ojS-eICUNCyA9HNcnwjN9BpbA/exec" target="_top">🔗 Mở toàn màn hình trực tiếp (Nếu trình duyệt chặn hiển thị)</a>
   </div>
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbycCg2yt4j_FsH1zcD_k9klD_ZohGVCV1WTT9EL0DOd9ojS-eICUNCyA9HNcnwjN9BpbA/exec" 
+    allow="clipboard-read; clipboard-write">
+  </iframe>
 </body>
 </html>
